@@ -8,5 +8,7 @@ void main() {
     print("Votre âge est : $age ans");
   } on FormatException catch (e) {
     print("Erreur : format invalide (${e.message})");
+  } finally {
+    print("Fin d'opération");
   }
 }
