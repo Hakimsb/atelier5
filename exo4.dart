@@ -1,4 +1,4 @@
-// 🔹 Étape 1 : Créer une exception personnalisée
+
 class MotdepasseCourtException implements Exception {
   final String message;
 
